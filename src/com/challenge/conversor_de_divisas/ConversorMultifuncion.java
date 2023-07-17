@@ -36,7 +36,7 @@ public class ConversorMultifuncion extends JFrame implements ActionListener{
     public ConversorMultifuncion() {
         setTitle("Conversor Multifuncional");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(640, 280);
+        setSize(640, 260);
         setLocationRelativeTo(null);
 
         JMenuBar mBar = new JMenuBar();
@@ -179,5 +179,9 @@ public class ConversorMultifuncion extends JFrame implements ActionListener{
         unidadObjetivoBox.setSelectedIndex(0);
         t1.setText("0");
         t2.setText("0");
+    }
+
+    public static void main(String[] args) {
+        new ConversorMultifuncion().setVisible(true);
     }
 }
