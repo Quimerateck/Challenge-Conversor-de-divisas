@@ -17,7 +17,7 @@ public class ConversorDeDivisas{
     /**
      * genera la interfase grafica del convertidor de divisas
      */
-    public static void iniciarConversor() {
+    public ConversorDeDivisas() {
         String panelActivo = "";
         JFrame f = new JFrame("Conversor de " + panelActivo);
 
