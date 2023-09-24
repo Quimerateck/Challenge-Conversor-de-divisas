@@ -49,7 +49,7 @@ public class Divisas {
         }
         return cantidad * valor;
     }
-
+    
     public static void setListas(Vector<String> listaDeOpciones, ArrayList<String> listaDeSimbolos, ArrayList<String> codigos){
         //limpia CLEAR() e inicia ADD() todos sus valores en las listas ingresadas
         listaDeOpciones.clear();
